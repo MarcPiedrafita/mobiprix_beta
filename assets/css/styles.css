@@ -114,13 +114,14 @@ a { color: inherit; }
   flex-shrink: 0;
 }
 
-/* El PNG del logo lleva ~24% de alto transparente arriba y abajo, así que la
-   marca visible ocupa la mitad de esta altura. Ese aire hace de separación
-   óptica dentro de la cabecera. Si algún día se sustituye por un logo
-   recortado al ras, hay que bajar este valor. */
+/* El SVG mide 320x123 de viewBox con el dibujo en 298.9x103.3: unos 10px de
+   aire arriba y abajo (~8%). Con height:36px la marca se ve a unos 30px, que
+   es lo que pide la cabecera de 68px. El PNG anterior llevaba un 24% de aire
+   y necesitaba 52px para verse igual: si se vuelve a cambiar el archivo, hay
+   que remedir, no reutilizar este número. */
 .marca img {
   display: block;
-  height: 52px;
+  height: 36px;
   width: auto;
 }
 
