@@ -95,6 +95,14 @@ blanca, sofá crema, suelo pálido): oscurecerla para poner texto blanco apagar�
 su luz y chocaría con el resto de la página. El texto sigue siendo oscuro y lo
 que se refuerza es el fondo.
 
+El velo está calibrado, no puesto a ojo. Se probaron cinco intensidades
+midiendo el contraste de cada una: con el subtítulo en `--tinta-2` solo
+aguantaba bajarlo un 20 % antes de incumplir WCAG, pero **oscurecer el
+subtítulo a `#2b3138` casi duplica el margen a igual velo**, y eso es lo que
+permite dejar ver la foto. Sale más a cuenta que subir la opacidad del blanco.
+El ajuste actual está un 30 % por debajo del velo inicial y conserva 1,49x de
+margen sobre el mínimo.
+
 Si se cambia la foto por una más oscura **hay que rehacer esa decisión**, no
 solo sustituir el archivo. La suite mide el contraste real (oculta el texto,
 fotografía el fondo que queda debajo y calcula el peor caso WCAG de toda la
