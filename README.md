@@ -68,6 +68,15 @@ la tarjeta recorta con `object-fit: cover`.
 Si se prefiere otro nombre o extensión, se cambia el campo `imagen` del producto
 en `data/productos.json`.
 
+### Favicon
+
+Está en `assets/img/favicon.jpg`, referenciado con `<link rel="icon">` desde las
+cuatro páginas. Es un JPEG de 225×225 pese a que el archivo original venía con
+extensión `.ico`; se sirve como JPEG a propósito, porque dejarlo en una ruta
+`.ico` haría que el servidor declarase un `Content-Type` que no corresponde a
+los bytes. Para cambiarlo basta con sustituir el archivo; si el nuevo tiene otra
+extensión, hay que actualizar el `href` en los cuatro HTML.
+
 ### Color y tipografía
 
 Todo sale de los tokens del principio de `assets/css/styles.css`. El verde de
