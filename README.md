@@ -52,15 +52,20 @@ conmutador de idioma traduzca de verdad todo el contenido y no solo el menú.
 
 ### Fotos
 
-Ahora mismo no hay ninguna imagen en el repo: mientras el archivo no existe se ve
-un placeholder verde con la referencia y el nombre del producto.
-
-Para poner las fotos reales, dejarlas en `assets/img/` con estos nombres:
+Están en `assets/img/`, una por producto:
 
 ```
 out-01.jpg   out-02.jpg   out-03.jpg
-out-04.jpg   out-05.jpg   out-06.jpg
+out-04.jpg   out-05.jpg   out-06.jpg   <- pendiente
 ```
+
+Falta `out-06.jpg`. Mientras un archivo no exista, esa tarjeta muestra un
+placeholder con la referencia y el nombre; en cuanto se deje el archivo con ese
+nombre, aparece sola.
+
+Las fotos actuales son de 1500 px de ancho y suman unos 800 KB. Para la demo va
+bien, pero **en la web final hay que redimensionarlas y comprimirlas**: se
+muestran a menos de 600 px y se cargan las seis de golpe.
 
 No hay que tocar ni el código ni el JSON. Se recomienda formato apaisado (4:3);
 la tarjeta recorta con `object-fit: cover`.
