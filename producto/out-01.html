@@ -6,6 +6,24 @@
   <title>Outlet — Mobiprix</title>
   <meta name="description" content="">
   <meta name="robots" content="noindex, nofollow">
+
+  <!-- Previsualización al compartir el enlace. Estos textos van en estático y
+       en castellano a propósito: los rastreadores de WhatsApp, Slack, Telegram
+       o Twitter no ejecutan JavaScript, así que el conmutador de idioma no les
+       llega. Son la única excepción a la regla de que todo el texto visible
+       sale de ui.json. Las URL tienen que ser absolutas. -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Mobiprix">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:url" content="https://mobiprix-beta.vercel.app/producto/out-01">
+  <meta property="og:title" content="Outlet — Mobiprix">
+  <meta property="og:description" content="Muebles de exposición con pequeñas taras a precio reducido. Reserva en tienda. Beta de diseño con contenido de ejemplo.">
+  <meta property="og:image" content="https://mobiprix-beta.vercel.app/assets/img/og.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="2400">
+  <meta property="og:image:height" content="1260">
+  <meta property="og:image:alt" content="Listado del Outlet de Mobiprix con seis muebles de exposición y sus precios rebajados.">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="/assets/img/favicon.jpg">
   <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
@@ -15,7 +33,7 @@
 
   <header class="cabecera">
     <div class="contenedor cabecera__fila">
-      <a class="marca" href="/"><img src="/assets/img/logo.png" alt="Mobiprix"></a>
+      <a class="marca" href="/"><img src="/assets/img/logo.svg" alt="Mobiprix"></a>
 
       <nav class="nav">
         <a class="nav__enlace" href="/" data-i18n="nav.outlet"></a>

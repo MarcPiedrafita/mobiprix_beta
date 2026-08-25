@@ -84,13 +84,31 @@ extensión, hay que actualizar el `href` en los cuatro HTML.
 
 ### Logo
 
-`assets/img/logo.png`, referenciado desde la cabecera de las cuatro páginas.
+`assets/img/logo.svg`, el oficial de mobiprix.com, referenciado desde la
+cabecera de las cuatro páginas. Vector puro, 2,3 KB.
 
-El PNG mide 300 × 202 pero el wordmark solo ocupa 299 × 104: lleva unos 49 px
-transparentes arriba y abajo. Ese aire hace de separación óptica en la
-cabecera, y por eso `.marca img` va a `height: 52px` aunque la marca visible
-mida la mitad. **Si se sustituye por un logo recortado al ras hay que bajar esa
-altura**, o se verá desproporcionado.
+Su viewBox es 320 × 123 con el dibujo en 298,9 × 103,3: unos 10 px de aire
+arriba y abajo. Con `height: 36px` la marca se ve a unos 30 px, que es lo que
+pide una cabecera de 68 px. **Si se sustituye el archivo hay que volver a medir
+ese aire**, no reutilizar el 36: el PNG anterior llevaba un 24 % de margen y
+necesitaba 52 px para verse igual de grande.
+
+### Previsualización al compartir el enlace
+
+`assets/img/og.jpg` (2400 × 1260, proporción 1,91:1) es lo que se ve cuando se
+manda la URL por WhatsApp, Slack o correo. Las metaetiquetas `og:` están en las
+cuatro páginas, cada una con su `og:url`.
+
+Esos textos son **la única excepción** a la regla de que todo el texto visible
+sale de `ui.json`: van en estático y en castellano porque los rastreadores no
+ejecutan JavaScript y el conmutador de idioma no les llega.
+
+Para regenerar la imagen tras un cambio de diseño: servir el proyecto, abrirlo
+a 1200 × 630 con `deviceScaleFactor: 2`, compactar el hero (`.hero{padding:22px
+0 14px} .hero__subtitulo{display:none} .filtros{margin-bottom:22px}`) para que
+entren cabecera, titular, filtros y una fila de tarjetas, y capturar en JPEG con
+calidad 82. El encuadre está pensado para que no se transparente texto tras la
+cabecera sticky.
 
 ### Color y tipografía
 
