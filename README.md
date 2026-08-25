@@ -56,12 +56,12 @@ Están en `assets/img/`, una por producto:
 
 ```
 out-01.jpg   out-02.jpg   out-03.jpg
-out-04.jpg   out-05.jpg   out-06.jpg   <- pendiente
+out-04.jpg   out-05.jpg   out-06.jpg
 ```
 
-Falta `out-06.jpg`. Mientras un archivo no exista, esa tarjeta muestra un
-placeholder con la referencia y el nombre; en cuanto se deje el archivo con ese
-nombre, aparece sola.
+Están las seis. Si alguna se borra, esa tarjeta pasa a mostrar un placeholder
+con la referencia y el nombre; volver a dejar el archivo con ese nombre la
+restituye, sin tocar código.
 
 Las fotos actuales son de 1500 px de ancho y suman unos 800 KB. Para la demo va
 bien, pero **en la web final hay que redimensionarlas y comprimirlas**: se
@@ -82,10 +82,24 @@ extensión `.ico`; se sirve como JPEG a propósito, porque dejarlo en una ruta
 los bytes. Para cambiarlo basta con sustituir el archivo; si el nuevo tiene otra
 extensión, hay que actualizar el `href` en los cuatro HTML.
 
+### Logo
+
+`assets/img/logo.png`, referenciado desde la cabecera de las cuatro páginas.
+
+El PNG mide 300 × 202 pero el wordmark solo ocupa 299 × 104: lleva unos 49 px
+transparentes arriba y abajo. Ese aire hace de separación óptica en la
+cabecera, y por eso `.marca img` va a `height: 52px` aunque la marca visible
+mida la mitad. **Si se sustituye por un logo recortado al ras hay que bajar esa
+altura**, o se verá desproporcionado.
+
 ### Color y tipografía
 
 Todo sale de los tokens del principio de `assets/css/styles.css`. El verde de
-marca es `#29b12d` (variable `--verde`). La tipografía es el stack del sistema,
+la interfaz es `#29b12d` (variable `--verde`), el que se indicó al arrancar.
+
+Ojo: **el verde del logo es `#00b33f`**, distinto del anterior. Conviven en la
+misma cabecera. Está pendiente de decidir si se unifica la interfaz al verde
+del logo. La tipografía es el stack del sistema,
 pendiente del manual de marca: se cambia en `--fuente`.
 
 ## Estructura
