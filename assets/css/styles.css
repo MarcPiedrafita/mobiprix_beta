@@ -195,11 +195,11 @@ a { color: inherit; }
   position: absolute;
   inset: 0;
   background: linear-gradient(95deg,
-    rgba(255, 255, 255, .98) 0%,
-    rgba(255, 255, 255, .97) 44%,
-    rgba(255, 255, 255, .72) 63%,
-    rgba(255, 255, 255, .26) 82%,
-    rgba(255, 255, 255, .05) 100%);
+    rgba(255, 255, 255, .83) 0%,
+    rgba(255, 255, 255, .76) 44%,
+    rgba(255, 255, 255, .42) 63%,
+    rgba(255, 255, 255, .08) 82%,
+    rgba(255, 255, 255, 0) 100%);
 }
 
 .hero .contenedor {
@@ -219,7 +219,11 @@ a { color: inherit; }
   margin: 0;
   max-width: 52ch;
   font-size: clamp(1.02rem, 1.5vw, 1.18rem);
-  color: var(--tinta-2);
+  /* Más oscuro que --tinta-2 sólo aquí: es lo que permite bajar el velo y
+     dejar ver la foto sin perder legibilidad. Medido, oscurecer el subtítulo
+     casi duplica el margen de contraste a igual velo, así que sale más a
+     cuenta que subir la opacidad del blanco. */
+  color: #2b3138;
   line-height: 1.62;
 }
 
@@ -758,9 +762,9 @@ a { color: inherit; }
 @media (max-width: 1000px) {
   .hero::before {
     background: linear-gradient(180deg,
-      rgba(255, 255, 255, .95) 0%,
-      rgba(255, 255, 255, .90) 62%,
-      rgba(255, 255, 255, .80) 100%);
+      rgba(255, 255, 255, .84) 0%,
+      rgba(255, 255, 255, .76) 62%,
+      rgba(255, 255, 255, .64) 100%);
   }
 }
 
@@ -780,9 +784,9 @@ a { color: inherit; }
   .hero { padding: 44px 0 38px; }
   .hero::before {
     background: linear-gradient(180deg,
-      rgba(255, 255, 255, .96) 0%,
-      rgba(255, 255, 255, .92) 55%,
-      rgba(255, 255, 255, .82) 100%);
+      rgba(255, 255, 255, .86) 0%,
+      rgba(255, 255, 255, .80) 55%,
+      rgba(255, 255, 255, .70) 100%);
   }
 
   .filtros__fila { gap: 20px; }
