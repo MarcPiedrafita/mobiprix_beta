@@ -1,14 +1,44 @@
 {
   "categorias": [
-    { "id": "sofas",     "nombre": { "es": "Sofás",     "ca": "Sofàs" } },
-    { "id": "armarios",  "nombre": { "es": "Armarios",  "ca": "Armaris" } },
-    { "id": "colchones", "nombre": { "es": "Colchones", "ca": "Matalassos" } }
+    {
+      "id": "sofas",
+      "nombre": {
+        "es": "Sofás",
+        "ca": "Sofàs"
+      }
+    },
+    {
+      "id": "armarios",
+      "nombre": {
+        "es": "Armarios",
+        "ca": "Armaris"
+      }
+    },
+    {
+      "id": "colchones",
+      "nombre": {
+        "es": "Colchones",
+        "ca": "Matalassos"
+      }
+    }
   ],
   "tiendas": [
-    { "id": "barbera",    "nombre": "Barberà del Vallès" },
-    { "id": "sant-cugat", "nombre": "Sant Cugat del Vallès" },
-    { "id": "sabadell",   "nombre": "Sabadell" },
-    { "id": "mataro",     "nombre": "Mataró Maresme" }
+    {
+      "id": "barbera",
+      "nombre": "Barberà del Vallès"
+    },
+    {
+      "id": "sant-cugat",
+      "nombre": "Sant Cugat del Vallès"
+    },
+    {
+      "id": "sabadell",
+      "nombre": "Sabadell"
+    },
+    {
+      "id": "mataro",
+      "nombre": "Mataró Maresme"
+    }
   ],
   "productos": [
     {
@@ -30,13 +60,16 @@
         "ca": "Fregada de 8 cm al lateral dret, poc visible amb el sofà col·locat contra la paret."
       },
       "descripcion": {
-        "es": "Sofá de tres plazas con chaiselongue reversible y asientos de espuma de alta densidad. Procede de exposición de tienda, montado y usado únicamente como muestra.",
-        "ca": "Sofà de tres places amb chaiselongue reversible i seients d'escuma d'alta densitat. Prové d'exposició de botiga, muntat i utilitzat únicament com a mostra."
+        "es": "Sofá de tres plazas con chaiselongue y arcón de almacenaje bajo el asiento. Cabezales reclinables y asientos de espuma de alta densidad. Procede de exposición de tienda, montado y usado únicamente como muestra.",
+        "ca": "Sofà de tres places amb chaiselongue i bagul d'emmagatzematge sota el seient. Capçals reclinables i seients d'escuma d'alta densitat. Prové d'exposició de botiga, muntat i utilitzat únicament com a mostra."
       },
-      "medidas": { "es": "280 × 165 × 85 cm", "ca": "280 × 165 × 85 cm" },
+      "medidas": {
+        "es": "280 × 165 × 85 cm",
+        "ca": "280 × 165 × 85 cm"
+      },
       "material": {
-        "es": "Tapizado en tejido antimanchas color gris topo. Patas de madera maciza.",
-        "ca": "Entapissat en teixit antitaques color gris talp. Potes de fusta massissa."
+        "es": "Tapizado en tejido antimanchas color topo. Patas metálicas cromadas.",
+        "ca": "Entapissat en teixit antitaques color talp. Potes metàl·liques cromades."
       }
     },
     {
@@ -58,13 +91,16 @@
         "ca": "Cop petit a la cantonada inferior de la porta esquerra."
       },
       "descripcion": {
-        "es": "Armario de cuatro puertas abatibles con dos barras interiores y balda superior en cada módulo. Interior sin marcas.",
-        "ca": "Armari de quatre portes batents amb dues barres interiors i un prestatge superior a cada mòdul. Interior sense marques."
+        "es": "Armario de cuatro puertas abatibles con dos barras interiores y balda superior en cada módulo, sobre base de cuatro cajones. Interior sin marcas.",
+        "ca": "Armari de quatre portes batents amb dues barres interiors i un prestatge superior a cada mòdul, sobre base de quatre calaixos. Interior sense marques."
       },
-      "medidas": { "es": "200 × 236 × 60 cm", "ca": "200 × 236 × 60 cm" },
+      "medidas": {
+        "es": "200 × 236 × 60 cm",
+        "ca": "200 × 236 × 60 cm"
+      },
       "material": {
-        "es": "Tablero laminado acabado roble natural con cantos ABS.",
-        "ca": "Tauler laminat acabat roure natural amb cantells ABS."
+        "es": "Tablero laminado acabado roble natural, cajones en gris piedra y tiradores negros.",
+        "ca": "Tauler laminat acabat roure natural, calaixos en gris pedra i tiradors negres."
       }
     },
     {
@@ -86,13 +122,16 @@
         "ca": "Embalatge obert a la botiga per a exposició. Sense ús."
       },
       "descripcion": {
-        "es": "Colchón de 150 × 190 cm con capa de viscoelástica de 4 cm y núcleo de espuma HR. Firmeza media.",
-        "ca": "Matalàs de 150 × 190 cm amb capa de viscoelàstica de 4 cm i nucli d'escuma HR. Fermesa mitjana."
+        "es": "Colchón de 150 × 190 cm con acolchado superior tipo pillow top, capa de viscoelástica de 4 cm y núcleo de espuma HR. Firmeza media.",
+        "ca": "Matalàs de 150 × 190 cm amb encoixinat superior tipus pillow top, capa de viscoelàstica de 4 cm i nucli d'escuma HR. Fermesa mitjana."
       },
-      "medidas": { "es": "150 × 190 × 25 cm", "ca": "150 × 190 × 25 cm" },
+      "medidas": {
+        "es": "150 × 190 × 30 cm",
+        "ca": "150 × 190 × 30 cm"
+      },
       "material": {
-        "es": "Tejido stretch desenfundable y transpirable.",
-        "ca": "Teixit stretch desenfundable i transpirable."
+        "es": "Tapa blanca en tejido stretch desenfundable y transpirable, con laterales en gris.",
+        "ca": "Tapa blanca en teixit stretch desenfundable i transpirable, amb laterals en gris."
       }
     },
     {
@@ -100,27 +139,30 @@
       "slug": "out-04",
       "categoria": "armarios",
       "tienda": "sabadell",
-      "precioOriginal": 640,
-      "precioOutlet": 399,
+      "precioOriginal": 395,
+      "precioOutlet": 249,
       "estado": "disponible",
       "fichaPropia": false,
       "imagen": "/assets/img/out-04.jpg",
       "nombre": {
-        "es": "Armario Rubí 2 puertas correderas",
-        "ca": "Armari Rubí 2 portes corredores"
+        "es": "Armario Rubí 2 puertas",
+        "ca": "Armari Rubí 2 portes"
       },
       "defecto": {
-        "es": "Marca de roce en el raíl inferior. No afecta al deslizamiento.",
-        "ca": "Marca de fregada al rail inferior. No afecta al lliscament."
+        "es": "Marca de roce en el canto inferior de la puerta derecha.",
+        "ca": "Marca de fregada al cantell inferior de la porta dreta."
       },
       "descripcion": {
-        "es": "Armario de puertas correderas con espejo en una de las hojas. Cinco baldas y barra de colgar.",
-        "ca": "Armari de portes corredores amb mirall en una de les fulles. Cinc prestatges i barra de penjar."
+        "es": "Armario juvenil de dos puertas abatibles con barra de colgar y tres baldas, sobre base de dos cajones.",
+        "ca": "Armari juvenil de dues portes batents amb barra de penjar i tres prestatges, sobre base de dos calaixos."
       },
-      "medidas": { "es": "180 × 200 × 62 cm", "ca": "180 × 200 × 62 cm" },
+      "medidas": {
+        "es": "100 × 200 × 55 cm",
+        "ca": "100 × 200 × 55 cm"
+      },
       "material": {
-        "es": "Laminado blanco mate con perfil de aluminio.",
-        "ca": "Laminat blanc mat amb perfil d'alumini."
+        "es": "Laminado acabado roble con frentes de cajón en azul y tiradores a juego.",
+        "ca": "Laminat acabat roure amb frontals de calaix en blau i tiradors a joc."
       }
     },
     {
@@ -145,10 +187,13 @@
         "es": "Colchón de 135 × 190 cm con núcleo de muelles ensacados independientes y acolchado de fibra. Firmeza media-alta.",
         "ca": "Matalàs de 135 × 190 cm amb nucli de molles ensacades independents i encoixinat de fibra. Fermesa mitjana-alta."
       },
-      "medidas": { "es": "135 × 190 × 26 cm", "ca": "135 × 190 × 26 cm" },
+      "medidas": {
+        "es": "135 × 190 × 26 cm",
+        "ca": "135 × 190 × 26 cm"
+      },
       "material": {
-        "es": "Tapa de tejido transpirable con tratamiento antiácaros.",
-        "ca": "Tapa de teixit transpirable amb tractament antiàcars."
+        "es": "Tapa en tejido gris antracita, transpirable y con tratamiento antiácaros.",
+        "ca": "Tapa en teixit gris antracita, transpirable i amb tractament antiàcars."
       }
     },
     {
@@ -173,7 +218,10 @@
         "es": "Sofá de dos plazas con asientos desenfundables y respaldo de fibra. Última unidad de exposición.",
         "ca": "Sofà de dues places amb seients desenfundables i respatller de fibra. Última unitat d'exposició."
       },
-      "medidas": { "es": "165 × 90 × 84 cm", "ca": "165 × 90 × 84 cm" },
+      "medidas": {
+        "es": "165 × 90 × 84 cm",
+        "ca": "165 × 90 × 84 cm"
+      },
       "material": {
         "es": "Tapizado en pana color verde oliva.",
         "ca": "Entapissat en pana color verd oliva."
