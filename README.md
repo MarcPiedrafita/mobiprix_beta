@@ -82,6 +82,25 @@ extensión `.ico`; se sirve como JPEG a propósito, porque dejarlo en una ruta
 los bytes. Para cambiarlo basta con sustituir el archivo; si el nuevo tiene otra
 extensión, hay que actualizar el `href` en los cuatro HTML.
 
+### Foto del hero
+
+`assets/img/hero.jpg`, el fondo de la cabecera de la portada.
+
+El original venía a 5000 × 3000 y 1,5 MB. Está redimensionada a 2400 × 1440 y
+recomprimida a calidad 78, lo que la deja en 273 KB: el hero nunca se ve a más
+de ~1400 px CSS, así que 2400 cubre pantallas retina de sobra.
+
+Sobre ella va un **velo blanco**, no oscuro. La foto es muy clara (pared
+blanca, sofá crema, suelo pálido): oscurecerla para poner texto blanco apagaría
+su luz y chocaría con el resto de la página. El texto sigue siendo oscuro y lo
+que se refuerza es el fondo.
+
+Si se cambia la foto por una más oscura **hay que rehacer esa decisión**, no
+solo sustituir el archivo. La suite mide el contraste real (oculta el texto,
+fotografía el fondo que queda debajo y calcula el peor caso WCAG de toda la
+caja), así que un cambio que rompa la legibilidad falla el test en vez de
+colarse.
+
 ### Logo
 
 `assets/img/logo.svg`, el oficial de mobiprix.com, referenciado desde la
