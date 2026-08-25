@@ -1,0 +1,183 @@
+{
+  "categorias": [
+    { "id": "sofas",     "nombre": { "es": "Sofás",     "ca": "Sofàs" } },
+    { "id": "armarios",  "nombre": { "es": "Armarios",  "ca": "Armaris" } },
+    { "id": "colchones", "nombre": { "es": "Colchones", "ca": "Matalassos" } }
+  ],
+  "tiendas": [
+    { "id": "barbera",    "nombre": "Barberà del Vallès" },
+    { "id": "sant-cugat", "nombre": "Sant Cugat del Vallès" },
+    { "id": "sabadell",   "nombre": "Sabadell" },
+    { "id": "mataro",     "nombre": "Mataró Maresme" }
+  ],
+  "productos": [
+    {
+      "ref": "OUT-01",
+      "slug": "out-01",
+      "categoria": "sofas",
+      "tienda": "barbera",
+      "precioOriginal": 1370,
+      "precioOutlet": 790,
+      "estado": "disponible",
+      "fichaPropia": true,
+      "imagen": "/assets/img/out-01.jpg",
+      "nombre": {
+        "es": "Sofá chaiselongue Badalona",
+        "ca": "Sofà chaiselongue Badalona"
+      },
+      "defecto": {
+        "es": "Roce de 8 cm en el lateral derecho, poco visible con el sofá colocado contra la pared.",
+        "ca": "Fregada de 8 cm al lateral dret, poc visible amb el sofà col·locat contra la paret."
+      },
+      "descripcion": {
+        "es": "Sofá de tres plazas con chaiselongue reversible y asientos de espuma de alta densidad. Procede de exposición de tienda, montado y usado únicamente como muestra.",
+        "ca": "Sofà de tres places amb chaiselongue reversible i seients d'escuma d'alta densitat. Prové d'exposició de botiga, muntat i utilitzat únicament com a mostra."
+      },
+      "medidas": { "es": "280 × 165 × 85 cm", "ca": "280 × 165 × 85 cm" },
+      "material": {
+        "es": "Tapizado en tejido antimanchas color gris topo. Patas de madera maciza.",
+        "ca": "Entapissat en teixit antitaques color gris talp. Potes de fusta massissa."
+      }
+    },
+    {
+      "ref": "OUT-02",
+      "slug": "out-02",
+      "categoria": "armarios",
+      "tienda": "sant-cugat",
+      "precioOriginal": 700,
+      "precioOutlet": 455,
+      "estado": "reservado",
+      "fichaPropia": true,
+      "imagen": "/assets/img/out-02.jpg",
+      "nombre": {
+        "es": "Armario Terrassa 4 puertas",
+        "ca": "Armari Terrassa 4 portes"
+      },
+      "defecto": {
+        "es": "Golpe pequeño en la esquina inferior de la puerta izquierda.",
+        "ca": "Cop petit a la cantonada inferior de la porta esquerra."
+      },
+      "descripcion": {
+        "es": "Armario de cuatro puertas abatibles con dos barras interiores y balda superior en cada módulo. Interior sin marcas.",
+        "ca": "Armari de quatre portes batents amb dues barres interiors i un prestatge superior a cada mòdul. Interior sense marques."
+      },
+      "medidas": { "es": "200 × 236 × 60 cm", "ca": "200 × 236 × 60 cm" },
+      "material": {
+        "es": "Tablero laminado acabado roble natural con cantos ABS.",
+        "ca": "Tauler laminat acabat roure natural amb cantells ABS."
+      }
+    },
+    {
+      "ref": "OUT-03",
+      "slug": "out-03",
+      "categoria": "colchones",
+      "tienda": "sabadell",
+      "precioOriginal": 599,
+      "precioOutlet": 299,
+      "estado": "reservado",
+      "fichaPropia": false,
+      "imagen": "/assets/img/out-03.jpg",
+      "nombre": {
+        "es": "Colchón viscoelástico 150",
+        "ca": "Matalàs viscoelàstic 150"
+      },
+      "defecto": {
+        "es": "Embalaje abierto en tienda para exposición. Sin uso.",
+        "ca": "Embalatge obert a la botiga per a exposició. Sense ús."
+      },
+      "descripcion": {
+        "es": "Colchón de 150 × 190 cm con capa de viscoelástica de 4 cm y núcleo de espuma HR. Firmeza media.",
+        "ca": "Matalàs de 150 × 190 cm amb capa de viscoelàstica de 4 cm i nucli d'escuma HR. Fermesa mitjana."
+      },
+      "medidas": { "es": "150 × 190 × 25 cm", "ca": "150 × 190 × 25 cm" },
+      "material": {
+        "es": "Tejido stretch desenfundable y transpirable.",
+        "ca": "Teixit stretch desenfundable i transpirable."
+      }
+    },
+    {
+      "ref": "OUT-04",
+      "slug": "out-04",
+      "categoria": "armarios",
+      "tienda": "sabadell",
+      "precioOriginal": 640,
+      "precioOutlet": 399,
+      "estado": "disponible",
+      "fichaPropia": false,
+      "imagen": "/assets/img/out-04.jpg",
+      "nombre": {
+        "es": "Armario Rubí 2 puertas correderas",
+        "ca": "Armari Rubí 2 portes corredores"
+      },
+      "defecto": {
+        "es": "Marca de roce en el raíl inferior. No afecta al deslizamiento.",
+        "ca": "Marca de fregada al rail inferior. No afecta al lliscament."
+      },
+      "descripcion": {
+        "es": "Armario de puertas correderas con espejo en una de las hojas. Cinco baldas y barra de colgar.",
+        "ca": "Armari de portes corredores amb mirall en una de les fulles. Cinc prestatges i barra de penjar."
+      },
+      "medidas": { "es": "180 × 200 × 62 cm", "ca": "180 × 200 × 62 cm" },
+      "material": {
+        "es": "Laminado blanco mate con perfil de aluminio.",
+        "ca": "Laminat blanc mat amb perfil d'alumini."
+      }
+    },
+    {
+      "ref": "OUT-05",
+      "slug": "out-05",
+      "categoria": "colchones",
+      "tienda": "barbera",
+      "precioOriginal": 520,
+      "precioOutlet": 285,
+      "estado": "disponible",
+      "fichaPropia": true,
+      "imagen": "/assets/img/out-05.jpg",
+      "nombre": {
+        "es": "Colchón de muelles ensacados 135",
+        "ca": "Matalàs de molles ensacades 135"
+      },
+      "defecto": {
+        "es": "Pequeña mancha en la parte inferior, en la cara que no se usa.",
+        "ca": "Petita taca a la part inferior, a la cara que no es fa servir."
+      },
+      "descripcion": {
+        "es": "Colchón de 135 × 190 cm con núcleo de muelles ensacados independientes y acolchado de fibra. Firmeza media-alta.",
+        "ca": "Matalàs de 135 × 190 cm amb nucli de molles ensacades independents i encoixinat de fibra. Fermesa mitjana-alta."
+      },
+      "medidas": { "es": "135 × 190 × 26 cm", "ca": "135 × 190 × 26 cm" },
+      "material": {
+        "es": "Tapa de tejido transpirable con tratamiento antiácaros.",
+        "ca": "Tapa de teixit transpirable amb tractament antiàcars."
+      }
+    },
+    {
+      "ref": "OUT-06",
+      "slug": "out-06",
+      "categoria": "sofas",
+      "tienda": "mataro",
+      "precioOriginal": 890,
+      "precioOutlet": 520,
+      "estado": "vendido",
+      "fichaPropia": false,
+      "imagen": "/assets/img/out-06.jpg",
+      "nombre": {
+        "es": "Sofá 2 plazas Mataró",
+        "ca": "Sofà 2 places Mataró"
+      },
+      "defecto": {
+        "es": "Unidad de exposición sin defectos declarados.",
+        "ca": "Unitat d'exposició sense defectes declarats."
+      },
+      "descripcion": {
+        "es": "Sofá de dos plazas con asientos desenfundables y respaldo de fibra. Última unidad de exposición.",
+        "ca": "Sofà de dues places amb seients desenfundables i respatller de fibra. Última unitat d'exposició."
+      },
+      "medidas": { "es": "165 × 90 × 84 cm", "ca": "165 × 90 × 84 cm" },
+      "material": {
+        "es": "Tapizado en pana color verde oliva.",
+        "ca": "Entapissat en pana color verd oliva."
+      }
+    }
+  ]
+}

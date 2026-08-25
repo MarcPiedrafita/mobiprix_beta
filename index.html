@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="es" data-i18n-documento="meta.titulo">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Outlet — Mobiprix</title>
+  <meta name="description" content="">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+
+  <p class="demo-bar" data-i18n="demo.aviso"></p>
+
+  <header class="cabecera">
+    <div class="contenedor cabecera__fila">
+      <a class="marca" href="/">Mobiprix<span class="marca__punto">.</span></a>
+
+      <nav class="nav">
+        <a class="nav__enlace" href="/" aria-current="page" data-i18n="nav.outlet"></a>
+        <span class="nav__enlace" data-i18n="nav.tiendas"></span>
+      </nav>
+
+      <div class="idioma" role="group" data-i18n-aria="idioma.etiqueta">
+        <button type="button" class="idioma__btn" data-idioma="es" aria-pressed="true">ES</button>
+        <button type="button" class="idioma__btn" data-idioma="ca" aria-pressed="false">CA</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="contenedor">
+        <h1 class="hero__titulo" data-i18n="hero.titulo"></h1>
+        <p class="hero__subtitulo" data-i18n="hero.subtitulo"></p>
+      </div>
+    </section>
+
+    <section class="filtros">
+      <div class="contenedor filtros__fila">
+        <div class="filtros__grupo">
+          <span class="filtros__etiqueta" id="et-categoria" data-i18n="filtros.categoria"></span>
+          <div class="pills" id="pills-categoria" role="group" aria-labelledby="et-categoria"></div>
+        </div>
+
+        <div class="filtros__grupo">
+          <label class="filtros__etiqueta" for="select-tienda" data-i18n="filtros.tienda"></label>
+          <select class="select" id="select-tienda"></select>
+        </div>
+
+        <div class="filtros__cola">
+          <span class="recuento" id="recuento" aria-live="polite"></span>
+          <button type="button" class="enlace-boton" data-limpiar data-i18n="filtros.limpiar"></button>
+        </div>
+      </div>
+    </section>
+
+    <div class="contenedor">
+      <div class="rejilla" id="rejilla"></div>
+
+      <div class="vacio oculto" id="vacio">
+        <p class="vacio__titulo" data-i18n="vacio.titulo"></p>
+        <p class="vacio__texto" data-i18n="vacio.texto"></p>
+        <button type="button" class="boton boton--secundario boton--auto" data-limpiar
+                data-i18n="filtros.limpiar"></button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor pie__fila">
+      <span data-i18n="footer.texto"></span>
+      <span data-i18n="footer.nota"></span>
+    </div>
+  </footer>
+
+  <script type="module" src="/assets/js/outlet.js"></script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+{
+  "es": {
+    "meta": {
+      "titulo": "Outlet — Mobiprix",
+      "descripcion": "Muebles de exposición con pequeñas taras a precio reducido. Reserva en tienda."
+    },
+    "demo": {
+      "aviso": "Beta de diseño · contenido de ejemplo, no es la web real"
+    },
+    "nav": {
+      "marca": "Mobiprix",
+      "outlet": "Outlet",
+      "tiendas": "Tiendas",
+      "volver": "Volver al Outlet"
+    },
+    "idioma": {
+      "etiqueta": "Cambiar idioma"
+    },
+    "hero": {
+      "titulo": "Outlet",
+      "subtitulo": "Muebles de exposición con pequeñas taras a precio reducido. Última unidad de cada referencia: se reserva en tienda y se recoge allí mismo."
+    },
+    "filtros": {
+      "categoria": "Categoría",
+      "tienda": "Tienda",
+      "todas": "Todas",
+      "todasTiendas": "Todas las tiendas",
+      "limpiar": "Limpiar filtros",
+      "resultadosUno": "1 producto",
+      "resultadosVarios": "{n} productos"
+    },
+    "estados": {
+      "disponible": "Disponible",
+      "reservado": "Reservado",
+      "vendido": "Vendido"
+    },
+    "producto": {
+      "ref": "Referencia",
+      "antes": "Antes",
+      "ahora": "Ahora",
+      "ahorro": "Ahorras {n} €",
+      "tara": "Tara",
+      "descripcion": "Descripción",
+      "medidas": "Medidas",
+      "material": "Material",
+      "verFicha": "Ver ficha",
+      "cerrar": "Cerrar"
+    },
+    "reserva": {
+      "boton": "Reservar en tienda",
+      "reservado": "Ya reservado",
+      "vendido": "Vendido",
+      "tituloOk": "Reserva registrada",
+      "textoOk": "Guardamos {producto} ({ref}) a tu nombre en la tienda de {tienda} durante 48 horas.",
+      "nota": "Demostración: esta reserva no se ha enviado a ningún sitio.",
+      "cerrar": "Entendido"
+    },
+    "vacio": {
+      "titulo": "No hay productos con estos filtros",
+      "texto": "Prueba con otra categoría o con otra tienda."
+    },
+    "footer": {
+      "texto": "Mobiprix · Beta de diseño del Outlet",
+      "nota": "Contenido de ejemplo. Los productos, precios y taras son ficticios."
+    }
+  },
+  "ca": {
+    "meta": {
+      "titulo": "Outlet — Mobiprix",
+      "descripcion": "Mobles d'exposició amb petites tares a preu reduït. Reserva a la botiga."
+    },
+    "demo": {
+      "aviso": "Beta de disseny · contingut d'exemple, no és el web real"
+    },
+    "nav": {
+      "marca": "Mobiprix",
+      "outlet": "Outlet",
+      "tiendas": "Botigues",
+      "volver": "Tornar a l'Outlet"
+    },
+    "idioma": {
+      "etiqueta": "Canviar idioma"
+    },
+    "hero": {
+      "titulo": "Outlet",
+      "subtitulo": "Mobles d'exposició amb petites tares a preu reduït. Última unitat de cada referència: es reserva a la botiga i es recull allà mateix."
+    },
+    "filtros": {
+      "categoria": "Categoria",
+      "tienda": "Botiga",
+      "todas": "Totes",
+      "todasTiendas": "Totes les botigues",
+      "limpiar": "Esborrar filtres",
+      "resultadosUno": "1 producte",
+      "resultadosVarios": "{n} productes"
+    },
+    "estados": {
+      "disponible": "Disponible",
+      "reservado": "Reservat",
+      "vendido": "Venut"
+    },
+    "producto": {
+      "ref": "Referència",
+      "antes": "Abans",
+      "ahora": "Ara",
+      "ahorro": "Estalvies {n} €",
+      "tara": "Tara",
+      "descripcion": "Descripció",
+      "medidas": "Mides",
+      "material": "Material",
+      "verFicha": "Veure fitxa",
+      "cerrar": "Tancar"
+    },
+    "reserva": {
+      "boton": "Reservar a la botiga",
+      "reservado": "Ja reservat",
+      "vendido": "Venut",
+      "tituloOk": "Reserva registrada",
+      "textoOk": "Guardem {producto} ({ref}) al teu nom a la botiga de {tienda} durant 48 hores.",
+      "nota": "Demostració: aquesta reserva no s'ha enviat enlloc.",
+      "cerrar": "Entesos"
+    },
+    "vacio": {
+      "titulo": "No hi ha productes amb aquests filtres",
+      "texto": "Prova amb una altra categoria o amb una altra botiga."
+    },
+    "footer": {
+      "texto": "Mobiprix · Beta de disseny de l'Outlet",
+      "nota": "Contingut d'exemple. Els productes, preus i tares són ficticis."
+    }
+  }
+}
